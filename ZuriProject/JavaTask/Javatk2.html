@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //My simple calculator with javascript 
+//operator from users
+const operator =prompt("Enter operator to compute calculation( either +, -, * or / ): ");
+
+// accept the value from the user through prompt box  
+const x = parseFloat(prompt ('Enter the first number: '));  
+const y = parseFloat(prompt ('Enter the second number: ')); 
+
+// declaration of the variable.  
+let calculate; 
+
+
+// use if, elseif and else keyword to define the calculator condition in JavaScript. 
+if (operator=='+'){
+    calculate = x + y;
+} else if(operator=='-'){
+    calculate = x - y;
+} else if(operator=='*'){
+    calculate = x * y;
+} else if(operator=='/'){
+    calculate = x / y;
+}
+// display the result of the Calculator 
+window.alert(" The output is " + calculate); 
+    </script>
+</body>
+</html>
