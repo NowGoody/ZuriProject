@@ -1,0 +1,104 @@
+*{
+    margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+main{
+    background-image: url('back.png');
+    background-color:hsl(0, 100%, 74%);
+    display:flex;
+    margin:0 auto;
+    margin-top: 100px;
+    background-size:cover;
+    width: 50em;
+    height: 100%;
+    padding: 50px;
+}
+.formDiv p a{
+    color: red;
+}
+.formDiv p{
+    padding: 5px;
+    color: rgb(182, 175, 175)
+}
+.formDiv{
+    font-size: 10px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: auto;
+
+    
+}
+input {
+    width: 100%;
+    height:100%;
+    padding: 5px;
+    border-radius: 0.12cm;
+    justify-content: center;
+    align-items: center;
+    border-color:rgb(233, 221, 221) ;
+   
+    
+    
+}
+.div1{
+    width: 100%;
+}
+.formDiv{
+    width: 100%;
+    height: 100%;
+    font-size: 16; 
+     
+}
+.formDiv form{
+    box-shadow:  0px 2px 4px 1px rgb(90, 93, 93);
+    background-color: hsl(0, 0%, 95%)white;
+    padding: 20px;
+    border-radius: 0.3cm
+    
+}
+
+form button{
+    box-shadow:  0px 2px 4px 1px rgb(90, 93, 93);
+    text-align: center;
+   border-radius: 0.12cm;
+   background-color: rgb(13, 197, 68);
+   width: 100%;
+   height:2.5em;
+   padding: 5PX;
+   border: 0;
+}
+h1 {
+    color: white;
+
+}
+.div1 p{
+    font-size: 13px;
+    color: white;
+}
+#but1{
+    box-shadow:  0px 2px 4px 1px rgb(90, 93, 93);
+    background-color: blue;
+    width: 100%;
+    padding: 5px;
+    border-radius: 0.12cm;
+    border: 0;
+    height: 2.5em;
+    color: white; 
+}
+#but2{
+    color: white; 
+}
+
+
+
+
+
+

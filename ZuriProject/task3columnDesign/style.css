@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: hsl(0, 0%, 95%);
+}
+.mainDiv{
+    width: 100vh;
+    font-size: 15px;
+    display:flex;
+    min-height: 100vh;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-sizing: content-box;
+}
+.div1{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    background-color: hsl(31, 77%, 52%);   
+    border-top-left-radius: 0.12cm;
+    border-bottom-left-radius: 0.12cm;
+}
+.div2{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    background-color:hsl(184, 100%, 22%);
+}
+.div3{
+    height: 100%;
+    width:100%;
+    padding: 25px;
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 0.12cm;
+    border-bottom-right-radius: 0.12cm;
+}
+h1 {
+    color:hsl(0, 0%, 95%);
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+}
+#but1{
+    color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%) ;
+    padding: 1em;
+    border-radius: 1cm; 
+}
+#but2{
+    border-color: hsl(0, 0%, 95%); 
+    color: hsl(184, 100%, 22%);
+    padding: 1em;
+    border-radius: 1cm;
+}
+#but3{
+    border-color: hsl(0, 0%, 95%); 
+    color: hsl(179, 100%, 13%);
+    padding: 1em;
+    border-radius: 1cm;
+}
+#but1:hover {
+    cursor: pointer;
+    background-color:hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+}
+#but2:hover {
+    cursor: pointer;
+    background-color:hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+}
+#but3:hover {
+    cursor: pointer;
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+}
